@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" ><!--xmlns="http://www.w3.org/1999/xhtml"-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Us!</title>
+</head>
+<body>
+    <img src="./img/Friends.PNG" alt="friends image">
+    <h1 style="text-align: center;">Friendship Zone</h1>
+    <h2>Add your details to register</h2>
+    <form action="">
+        <label for="name"><b>Name: </b></label>
+        <input required="required" type="text" minlength="3" name="" id="name" />
+        <br />
+        <br /><label for="email"><b>Email: </b></label>
+        <input type="email" name="" id="email" />
+        <br />
+        <br />
+        <label for="age"><b>Age: </b></label>
+        <input type="number" name="" min="18" max="122" id="age" />
+        <br />
+        <br />
+        <label for="bday"><b>Birth Day: </b></label>
+        <!-- <input type="text" placeholder="dd/mm/yyyy" name="" id="bday" /> -->
+        <input type="date" name="" id="bday" />
+        <br />
+        <br />
+        <label for="sex"><b>Email: </b></label>
+        <input type="radio" name="M" id="sex">M
+        <input type="radio" name="M" id="sex">F
+        <br />
+        <br />
+        <label for="area"><b>About: </b></label>
+        <textarea name="" id="area" cols="30" rows="10"></textarea>
+        <br />
+        <br />
+        <label for="ph"><b>Phone: </b></label>
+        <input type="text" name="" id="ph" />
+        <br />
+        <br />
+        <br />
+        <br />
+        <label for="fg"><b>Intrested in: </b></label> <input type="radio" name="F" />Friendship 
+        <input type="radio" name="F" />Dating <b>Attachment </b><input type="file" name="" id="fg" />
+        <br />
+        <br />
+        <input type="submit" formaction="./RegistrationConfirmation.html" value="Register" />
+        <input type="submit" formaction="./RegistrationConfirmationforAdmin.html" value="Register as Admin" />
+    </form>
+</body>
+</html>
